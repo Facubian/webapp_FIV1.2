@@ -9,7 +9,7 @@ from functions import distribution
 # Función para cargar los datos
 @st.cache_data
 def load_data():
-    data = pd.read_csv("content/pagina/data_etiquetada.csv")
+    data = pd.read_csv("pagina/data_etiquetada.csv")
     return data
 
 data = load_data()
