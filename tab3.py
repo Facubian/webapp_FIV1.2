@@ -37,7 +37,6 @@ def show():
             <li>Número de árboles: 100</li>
             <li>Profundidad máxima: 10</li>
             <li>Features por split: sqrt</li>
-            <li>Validación cruzada de 5 folds</li>
         </ul>
         </p>
     </div>
