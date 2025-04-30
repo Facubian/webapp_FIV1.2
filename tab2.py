@@ -21,7 +21,7 @@ def transform(data):
 
 
 def show():
-  tab1, tab2 = st.tabs(["📊 Ingreso de datos", "🔍 Resultados"])
+  tab1, tab2 = st.tabs(["📊 Ingresar datos", "🔍 Resultados"])
   with tab1:
       st.markdown('<p class="info-text">Ingrese los valores para cada variable y observe la distribución en relación a nuestra base de datos:</p>', unsafe_allow_html=True)
     
