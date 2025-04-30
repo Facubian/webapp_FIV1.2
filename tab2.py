@@ -5,8 +5,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from functions import distribution
-import plotly.express as px
-import plotly.graph_objects as go
 
 # Función para cargar los datos
 @st.cache_data
