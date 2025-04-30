@@ -88,8 +88,7 @@ st.markdown("""
 
 # Crear una barra lateral con información y opciones
 with st.sidebar:
-    #st.image("/pagina/Logo-Embryoxite.png", width=200)
-    #st.markdown("### Opciones de visualización")
+    st.image("/pagina/Logo-Embryoxite.png", width=200)
     
     st.markdown("---")
     st.markdown("### Acerca de Embryoxite")
