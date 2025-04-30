@@ -1,0 +1,8 @@
+﻿# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: win-64
+joblib==1.4.2
+pandas
+streamlit
+matplotlib
+scikit-learn == 1.3.2
