@@ -119,7 +119,7 @@ de ovocitos en pacientes de tratamientos de reproducción asistida.
 st.markdown('<h2 class="sub-header">Predicción de Recuperación de Ovocitos</h2>', unsafe_allow_html=True)
 
 # Crear pestañas para separar la entrada de datos y los resultados
-tabs = st.tabs(["📊 Inicio", "🔍 Modelo", "Detalles del modelo"])
+tabs = st.tabs(["📊 Inicio", "🤖 Modelo", "⚙️ Detalles del modelo"])
 
 with tabs[0]:
   tab1.show()
