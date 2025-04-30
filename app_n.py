@@ -84,19 +84,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-"""
-# Función para cargar los datos
-@st.cache_data
-def load_data():
-    data = pd.read_csv("pagina/data_etiquetada.csv")
-    return data
 
-data = load_data()
-
-# Función para transformar datos
-def transform(data):
-    return np.log(data)
-"""
 
 # Crear una barra lateral con información y opciones
 with st.sidebar:
