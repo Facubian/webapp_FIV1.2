@@ -84,7 +84,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-
+"""
 # Función para cargar los datos
 @st.cache_data
 def load_data():
@@ -96,10 +96,11 @@ data = load_data()
 # Función para transformar datos
 def transform(data):
     return np.log(data)
+"""
 
 # Crear una barra lateral con información y opciones
 with st.sidebar:
-    #st.image("/content/pagina/Logo-Embryoxite.png", width=200)
+    #st.image("/pagina/Logo-Embryoxite.png", width=200)
     #st.markdown("### Opciones de visualización")
     
     st.markdown("---")
