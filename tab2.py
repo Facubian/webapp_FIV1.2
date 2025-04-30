@@ -154,7 +154,6 @@ def show():
             result_color2 = "#7f8c8d"  # Gris
         
         # Mostrar resultados
-        st.markdown('<div class="card">', unsafe_allow_html=True)
         st.markdown('<h3>Resumen de datos del paciente</h3>', unsafe_allow_html=True)
         
         col1, col2, col3 = st.columns(3)
